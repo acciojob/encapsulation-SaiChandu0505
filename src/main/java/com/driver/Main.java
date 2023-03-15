@@ -1,5 +1,10 @@
 package com.driver;
 
 public class Main {
-  
+
+    RWOnly obj = new RWOnly();
+
+    obj.setName("SaiChandu");
+
+    System.out.println(getName());
 }
