@@ -2,9 +2,12 @@ package com.driver;
 
 public class Main {
 
-    RWOnly obj = new RWOnly();
+    public static void main(String[] args){
 
-    obj.setName("SaiChandu");
+        RWOnly obj = new RWOnly();
 
-    System.out.println(getName());
+        obj.setName("Sai Chandu");
+
+        System.out.println(obj.getName());
+    }
 }
